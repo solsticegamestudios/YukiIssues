@@ -51,7 +51,7 @@ body:
       label: GModPatchTool
       description: Is GModPatchTool applied to your copy of Garry's Mod?
       options:
-        - No
+        - Not applied
         - Yes, with an outdated version of GModPatchTool
         - Yes, with the up-to-date version of GModPatchTool
     validations:
