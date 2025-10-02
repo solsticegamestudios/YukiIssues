@@ -3,14 +3,14 @@ description: Create a bug report to help us improve YukiTheater
 body:
   - type: markdown
     attributes:
-      value: Please [read the README](https://github.com/solsticegamestudios/YukiIssues/blob/main/README.md) before creating an issue!
+      value: Please [Read the README](https://github.com/solsticegamestudios/YukiIssues/blob/main/README.md) before creating an issue!
   - type: textarea
     id: details
     attributes:
       label: Details
       description: |
-        Tell us what's happening.
-      placeholder: Describe the issue here...
+        Tell us what's happening, versus what you're expecting to happen.
+      placeholder: Describe the issue and expected behavior here...
     validations:
       required: true
   - type: textarea
