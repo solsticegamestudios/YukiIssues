@@ -1,0 +1,55 @@
+name: Bug report
+description: Create a bug report to help us improve YukiTheater
+body:
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: |
+        Tell us what's happening.
+      placeholder: Describe the issue here...
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: |
+        Tell us how to reproduce the issue, step by step.
+      placeholder: Describe how to reproduce the issue here...
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating System
+      description: What operating system are you using?
+      options:
+        - Windows
+        - Linux / Unix
+        - macOS
+        - Other
+    validations:
+      required: true
+  - type: dropdown
+    id: beta
+    attributes:
+      label: Beta
+      description: What beta version of Garry's Mod are you using?
+      options:
+        - None/Public/Default/Main
+        - Dev beta
+        - x86-64 beta
+    validations:
+      required: true
+  - type: dropdown
+    id: gmodpatchtool
+    attributes:
+      label: GModPatchTool
+      description: Is GModPatchTool applied to your copy of Garry's Mod?
+      options:
+        - Yes, with the up-to-date version of GModPatchTool
+        - Yes, with an outdated version of GModPatchTool
+        - No
+    validations:
+      required: true
