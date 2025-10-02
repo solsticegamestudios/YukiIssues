@@ -49,7 +49,7 @@ body:
     id: gmodpatchtool
     attributes:
       label: GModPatchTool
-      description: Is GModPatchTool applied to your copy of Garry's Mod?
+      description: Is [GModPatchTool](https://github.com/solsticegamestudios/GModPatchTool) applied to your copy of Garry's Mod?
       options:
         - Not applied
         - Yes, with an outdated version of GModPatchTool
