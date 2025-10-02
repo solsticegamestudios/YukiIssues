@@ -1,6 +1,9 @@
 name: Bug report
 description: Create a bug report to help us improve YukiTheater
 body:
+  - type: markdown
+    attributes:
+      value: Please [read the README](https://github.com/solsticegamestudios/YukiIssues/blob/main/README.md) before creating an issue!
   - type: textarea
     id: details
     attributes:
@@ -48,8 +51,8 @@ body:
       label: GModPatchTool
       description: Is GModPatchTool applied to your copy of Garry's Mod?
       options:
-        - Yes, with the up-to-date version of GModPatchTool
-        - Yes, with an outdated version of GModPatchTool
         - No
+        - Yes, with an outdated version of GModPatchTool
+        - Yes, with the up-to-date version of GModPatchTool
     validations:
       required: true
