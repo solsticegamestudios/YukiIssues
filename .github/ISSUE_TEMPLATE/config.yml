@@ -1,0 +1,14 @@
+blank_issues_enabled : false
+
+contact_links:
+  - name: Help & Support
+    about: If you need help with something in-game that isn't a bug, please check out the Help & Support section on our Forums, or discuss with us on our Discord.
+    url: https://solsticegamestudios.com/forums/forums/support/
+
+  - name: Feature Request
+    about: To request a feature, please use YukiTheater's Suggestions section on our Forums, or discuss with us on our Discord.
+    url: https://solsticegamestudios.com/forums/forums/yuki-suggestions/
+
+  - name: SGS Discord
+    about: You can use the Discord for general discussion, feature requests, and general help & support.
+    url: https://solsticegamestudios.com/discord/
