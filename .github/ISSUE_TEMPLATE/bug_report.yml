@@ -11,6 +11,8 @@ body:
       label: Details
       description: |
         Tell us what's happening, versus what you're expecting to happen.
+        Please also attach any relevant screenshots/videos.
+        If there are errors in GMod's Console (SHIFT+ESC), include those as well.
       placeholder: Describe the issue and expected behavior here...
     validations:
       required: true
